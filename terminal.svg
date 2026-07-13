@@ -1,0 +1,137 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 950" width="850" height="950">
+  <style>
+    /* Estilos de la ventana */
+    .window-bg { fill: #C0C0C0; stroke: #FFFFFF; stroke-width: 2; }
+    .title-bar { fill: #000080; }
+    .title-text { font-family: 'Segoe UI', Tahoma, sans-serif; font-size: 14px; fill: white; font-weight: bold; }
+
+    /* Botón de cerrar */
+    .btn-close { fill: #C0C0C0; stroke: #000000; stroke-width: 1; }
+    .btn-x { font-family: sans-serif; font-size: 12px; fill: black; font-weight: bold; }
+
+    /* Estilos de la consola */
+    .cmd-bg { fill: #000080; }
+    .cmd-text { font-family: 'Lucida Console', Monaco, monospace; font-size: 14px; fill: #FFFFFF; }
+    .folder { fill: #FFFF00; font-weight: bold; }
+    .cmd-input { fill: #00FF00; }
+    .highlight { fill: #00FFFF; }
+
+    /* Enlaces y Hover */
+    a { cursor: pointer; }
+    a:hover .folder { fill: #FFA500; text-decoration: underline; } /* Naranja al pasar el ratón */
+
+    /* Animación secuencial (Efecto tipeo rápido) */
+    .line { opacity: 0; animation: typing 0.1s forwards; }
+
+    .l1 { animation-delay: 0.2s; }
+    .l2 { animation-delay: 0.5s; }
+    .l3 { animation-delay: 0.6s; }
+    .l4 { animation-delay: 0.7s; }
+    .l5 { animation-delay: 1.0s; }
+    .l6 { animation-delay: 1.1s; }
+    .l7 { animation-delay: 1.2s; }
+    .l8 { animation-delay: 1.3s; }
+
+    .l9 { animation-delay: 1.8s; }
+    .l10 { animation-delay: 1.9s; }
+    .l11 { animation-delay: 2.0s; }
+    .l12 { animation-delay: 2.3s; }
+    .l13 { animation-delay: 2.4s; }
+    .l14 { animation-delay: 2.5s; }
+
+    .l15 { animation-delay: 3.0s; }
+    .l16 { animation-delay: 3.1s; }
+    .l17 { animation-delay: 3.2s; }
+
+    /* Unlink */
+    .l18 { animation-delay: 3.6s; }
+    .l19 { animation-delay: 3.7s; }
+    .l20 { animation-delay: 3.8s; }
+    .l21 { animation-delay: 3.9s; }
+
+    /* PBS */
+    .l22 { animation-delay: 4.3s; }
+    .l23 { animation-delay: 4.4s; }
+    .l24 { animation-delay: 4.5s; }
+    .l25 { animation-delay: 4.6s; }
+    .l26 { animation-delay: 4.7s; }
+
+    /* FasTable */
+    .l27 { animation-delay: 5.1s; }
+    .l28 { animation-delay: 5.2s; }
+    .l29 { animation-delay: 5.3s; }
+    .l30 { animation-delay: 5.4s; }
+    .l31 { animation-delay: 5.5s; }
+
+    /* PushOrder */
+    .l32 { animation-delay: 5.9s; }
+    .l33 { animation-delay: 6.0s; }
+    .l34 { animation-delay: 6.1s; }
+    .l35 { animation-delay: 6.2s; }
+
+    /* Final Line */
+    .l36 { animation-delay: 7.0s; }
+
+    /* Cursor parpadeante infinito */
+    .cursor { font-weight: bold; animation: blink 1s step-end infinite; }
+
+    @keyframes typing { to { opacity: 1; } }
+    @keyframes blink { 0%, 100% { opacity: 1; } 50% { opacity: 0; } }
+  </style>
+
+  <rect x="0" y="0" width="850" height="950" class="window-bg"/>
+  <rect x="3" y="3" width="844" height="25" class="title-bar"/>
+  <text x="10" y="21" class="title-text">Readme</text>
+
+  <rect x="820" y="5" width="20" height="20" class="btn-close"/>
+  <text x="826" y="19" class="btn-x">X</text>
+
+  <rect x="3" y="30" width="844" height="917" class="cmd-bg"/>
+
+  <text x="15" y="60" class="cmd-text">
+    <tspan x="15" dy="0" class="line l1">C:\Users\Elian> <tspan class="cmd-input">ls -R</tspan></tspan>
+
+    <tspan x="15" dy="35" class="line l2">╔══════════════════════════════════════════════════════════════════════════╗</tspan>
+    <tspan x="15" dy="20" class="line l3">║  <tspan class="folder">./About_Me</tspan>                                                                ║</tspan>
+    <tspan x="15" dy="20" class="line l4">╚══════════════════════════════════════════════════════════════════════════╝</tspan>
+    <tspan x="15" dy="25" class="line l5">> Soy desarrollador multiplataforma especializado en la eficiencia y rendimiento</tspan>
+    <tspan x="15" dy="20" class="line l6">  de flujos de trabajo empresariales mediante soluciones a medida.</tspan>
+    <tspan x="15" dy="20" class="line l7">> Como diseñador UI/UX, creo interfaces accesibles, funcionales y atractivas.</tspan>
+    <tspan x="15" dy="20" class="line l8">> Ayudo al crecimiento de marcas y posicionamiento SEO vía marketing digital.</tspan>
+
+    <tspan x="15" dy="45" class="line l9">╔══════════════════════════════════════════════════════════════════════════╗</tspan>
+    <tspan x="15" dy="20" class="line l10">║  <tspan class="folder">./Tech_Stack</tspan>                                                              ║</tspan>
+    <tspan x="15" dy="20" class="line l11">╚══════════════════════════════════════════════════════════════════════════╝</tspan>
+    <tspan x="15" dy="25" class="line l12">> <tspan class="highlight">Frontend:</tspan> React, Next.js (App Router), Tailwind CSS, PWA, UI/UX Design</tspan>
+    <tspan x="15" dy="20" class="line l13">> <tspan class="highlight">Backend:</tspan>  Node.js, PostgreSQL (Neon Serverless), REST APIs, Stripe</tspan>
+    <tspan x="15" dy="20" class="line l14">> <tspan class="highlight">Core:</tspan>     JavaScript, TypeScript, SQL, Arquitectura de Sistemas</tspan>
+
+    <tspan x="15" dy="45" class="line l15">╔══════════════════════════════════════════════════════════════════════════╗</tspan>
+    <tspan x="15" dy="20" class="line l16">║  <tspan class="folder">./Projects</tspan>                                                                ║</tspan>
+    <tspan x="15" dy="20" class="line l17">╚══════════════════════════════════════════════════════════════════════════╝</tspan>
+
+    <tspan x="15" dy="25" class="line l18">├─ [<a href="https://github.com/elianurl/Unlink" target="_blank"><tspan class="folder">Unlink</tspan></a>]</tspan>
+    <tspan x="15" dy="20" class="line l19">│    Herramienta Open Source para ejercer derechos ARCO en España.</tspan>
+    <tspan x="15" dy="20" class="line l20">│    Sin registros, servidores ni IA. Todo el procesamiento ocurre de</tspan>
+    <tspan x="15" dy="20" class="line l21">│    forma local en el navegador. Solo tú y tu derecho a la privacidad.</tspan>
+
+    <tspan x="15" dy="30" class="line l22">├─ [<a href="PBS" target="_blank"><tspan class="folder">PBS (Performance Business Suite)</tspan></a>]</tspan>
+    <tspan x="15" dy="20" class="line l23">│    Monorepo empresarial con módulos desarrollados y validados en conjunto:</tspan>
+    <tspan x="15" dy="20" class="line l24">│    - Suite: App principal (autenticación, permisos, auditoría y config).</tspan>
+    <tspan x="15" dy="20" class="line l25">│    - OrderPush: Referencias escaneables y uso del móvil como escáner.</tspan>
+    <tspan x="15" dy="20" class="line l26">│    - Inventory: Catálogo, gestión de stock, pedidos y reglas de almacén.</tspan>
+
+    <tspan x="15" dy="30" class="line l27">├─ [<a href="FasTable" target="_blank"><tspan class="folder">FasTable</tspan></a>]</tspan>
+    <tspan x="15" dy="20" class="line l28">│    PWA de pago por QR en mesa (estilo Expirenza). Sin instalaciones:</tspan>
+    <tspan x="15" dy="20" class="line l29">│    el cliente escanea, revisa la cuenta, deja propina y paga vía Apple/Google</tspan>
+    <tspan x="15" dy="20" class="line l30">│    Pay o Bizum. Desarrollada con Next.js (App Router), Stripe y Neon (Postgres).</tspan>
+    <tspan x="15" dy="20" class="line l31">│    Incluye modo demo simulado, panel admin protegido y API de integración TPV.</tspan>
+
+    <tspan x="15" dy="30" class="line l32">└─ [<a href="PushOrder" target="_blank"><tspan class="folder">PushOrder</tspan></a>]</tspan>
+    <tspan x="15" dy="20" class="line l33">     Sistema de generación de pedidos, reposición y control de stock.</tspan>
+    <tspan x="15" dy="20" class="line l34">     Usa un dashboard personal para convertir cualquier cámara móvil en un</tspan>
+    <tspan x="15" dy="20" class="line l35">     escáner QR (sin instalación) y generar listados automáticos de almacén.</tspan>
+
+    <tspan x="15" dy="45" class="line l36">C:\Users\Elian> <tspan class="cursor">_</tspan></tspan>
+    </text>
+  </svg>
